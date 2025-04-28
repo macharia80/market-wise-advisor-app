@@ -19,7 +19,7 @@ export function MainLayout({ children }: { children?: React.ReactNode }) {
         )}
       >
         <div className="flex h-16 items-center px-4 border-b">
-          <h2 className="text-lg font-bold">MarketWise</h2>
+          <h2 className="text-lg font-bold">Cryonix</h2>
         </div>
         
         <nav className="px-2 py-4">
