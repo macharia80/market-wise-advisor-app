@@ -1,4 +1,3 @@
-
 // Mock stock market data service
 import { toast } from "@/components/ui/use-toast";
 
@@ -142,6 +141,116 @@ const mockStocks: Stock[] = [
     marketCap: 485000000000, 
     pe: 28.51, 
     sector: "Consumer Defensive" 
+  },
+  { 
+    symbol: "KO", 
+    name: "The Coca-Cola Company", 
+    price: 60.89, 
+    change: 0.45, 
+    changePercent: 0.74, 
+    volume: 12567800, 
+    marketCap: 263000000000, 
+    pe: 24.31, 
+    sector: "Consumer Defensive" 
+  },
+  { 
+    symbol: "PEP", 
+    name: "PepsiCo Inc.", 
+    price: 169.84, 
+    change: -0.78, 
+    changePercent: -0.46, 
+    volume: 8934500, 
+    marketCap: 233000000000, 
+    pe: 26.12, 
+    sector: "Consumer Defensive" 
+  },
+  { 
+    symbol: "DIS", 
+    name: "The Walt Disney Company", 
+    price: 114.01, 
+    change: 2.34, 
+    changePercent: 2.09, 
+    volume: 15678900, 
+    marketCap: 208000000000, 
+    pe: 71.23, 
+    sector: "Communication Services" 
+  },
+  { 
+    symbol: "NFLX", 
+    name: "Netflix Inc.", 
+    price: 628.69, 
+    change: 15.43, 
+    changePercent: 2.52, 
+    volume: 9876500, 
+    marketCap: 275000000000, 
+    pe: 52.34, 
+    sector: "Communication Services" 
+  },
+  { 
+    symbol: "ADBE", 
+    name: "Adobe Inc.", 
+    price: 485.12, 
+    change: -8.92, 
+    changePercent: -1.81, 
+    volume: 7654300, 
+    marketCap: 220000000000, 
+    pe: 46.78, 
+    sector: "Technology" 
+  },
+  { 
+    symbol: "CRM", 
+    name: "Salesforce Inc.", 
+    price: 284.56, 
+    change: 5.67, 
+    changePercent: 2.03, 
+    volume: 11234500, 
+    marketCap: 278000000000, 
+    pe: 68.92, 
+    sector: "Technology" 
+  },
+  { 
+    symbol: "INTC", 
+    name: "Intel Corporation", 
+    price: 43.12, 
+    change: -0.89, 
+    changePercent: -2.02, 
+    volume: 25678900, 
+    marketCap: 180000000000, 
+    pe: 22.45, 
+    sector: "Technology" 
+  },
+  { 
+    symbol: "AMD", 
+    name: "Advanced Micro Devices Inc.", 
+    price: 178.45, 
+    change: 6.78, 
+    changePercent: 3.95, 
+    volume: 19876500, 
+    marketCap: 288000000000, 
+    pe: 67.89, 
+    sector: "Technology" 
+  },
+  { 
+    symbol: "GS", 
+    name: "Goldman Sachs Group Inc.", 
+    price: 385.67, 
+    change: -2.34, 
+    changePercent: -0.60, 
+    volume: 6789400, 
+    marketCap: 127000000000, 
+    pe: 15.67, 
+    sector: "Financial Services" 
+  },
+  { 
+    symbol: "MA", 
+    name: "Mastercard Inc.", 
+    price: 468.23, 
+    change: 3.45, 
+    changePercent: 0.74, 
+    volume: 7890100, 
+    marketCap: 438000000000, 
+    pe: 35.67, 
+    sector: "Financial Services" 
   }
 ];
 
