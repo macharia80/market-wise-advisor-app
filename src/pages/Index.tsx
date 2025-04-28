@@ -5,6 +5,7 @@ import { PortfolioSummary } from "@/components/portfolio-summary";
 import { StockChart } from "@/components/stock-chart";
 import { TrendingStocks } from "@/components/trending-stocks";
 import { Watchlist } from "@/components/watchlist";
+import { CryptoCompaniesList } from "@/components/crypto-companies-list";
 
 const Index = () => {
   return (
@@ -16,11 +17,11 @@ const Index = () => {
           <div className="grid grid-cols-1 gap-6">
             <MarketOverview />
             <StockChart 
-              symbol="SPY" 
-              name="S&P 500 ETF Trust" 
-              price={5075.12} 
-              change={15.63} 
-              changePercent={0.31} 
+              symbol="BTC" 
+              name="Bitcoin" 
+              price={62475.12} 
+              change={1536.42} 
+              changePercent={2.45} 
             />
           </div>
         </div>
@@ -29,6 +30,10 @@ const Index = () => {
           <PortfolioSummary />
           <TrendingStocks />
         </div>
+      </div>
+      
+      <div className="mt-6">
+        <CryptoCompaniesList />
       </div>
       
       <div className="mt-6">

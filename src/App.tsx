@@ -10,6 +10,7 @@ import Watchlist from "./pages/Watchlist";
 import Explore from "./pages/Explore";
 import Settings from "./pages/Settings";
 import StockDetail from "./pages/StockDetail";
+import CryptoDetail from "./pages/CryptoDetail";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -27,6 +28,7 @@ const App = () => (
           <Route path="/explore" element={<Explore />} />
           <Route path="/settings" element={<Settings />} />
           <Route path="/stock/:symbol" element={<StockDetail />} />
+          <Route path="/crypto/:id" element={<CryptoDetail />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>
